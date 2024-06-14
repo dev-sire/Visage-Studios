@@ -25,7 +25,7 @@ Technology used to build Photobox includes:
 1. Create a new local project
 
 ```
-npx create-next-app@latest https://github.com/cloudinary-community/photobox photobox
+npx create-next-app@latest https://github.com/dev-sire/Visage-Studios VisageStudio
 ```
 
 You can also fork or clone the project manually!
