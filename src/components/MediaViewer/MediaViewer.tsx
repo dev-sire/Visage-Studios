@@ -681,7 +681,7 @@ const MediaViewer = ({ resource }: { resource: CloudinaryResource }) => {
       <Sheet modal={false} open={infoSheetIsOpen}>
         <SheetContent
           ref={sheetInfoRef}
-          className="w-3/4 grid grid-rows-[auto_1fr_auto] bg-zinc-800 text-white border-0"
+          className="w-full md:w-3/4 grid grid-rows-[auto_1fr_auto] bg-zinc-800 text-white border-0"
           data-exclude-close-on-click={true}
         >
           <SheetHeader className="my-4">
@@ -731,7 +731,7 @@ const MediaViewer = ({ resource }: { resource: CloudinaryResource }) => {
           <SheetFooter>
             <Button
               variant="outline"
-              className="w-[90%] h-14 text-left justify-center items-center bg-transparent border-zinc-600"
+              className="w-full h-14 text-left justify-center items-center bg-transparent border-zinc-600"
               onClick={() => closeMenus()}
             >
               <span className="text-[1.01rem]">Close</span>

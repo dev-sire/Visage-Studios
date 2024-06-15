@@ -13,7 +13,7 @@ const Nav = () => {
     <nav className="flex items-center h-20 border border-zinc-200">
       <Container className="flex gap-6 items-center flex-row">
         <p className="w-40 flex-grow-0 mb-0">
-          <Link href="/" className="flex gap-2 items-center w-[10rem] md:w-[14rem]">
+          <Link href="/" className="flex gap-2 items-center w-[12rem] md:w-[14rem]">
             { logo }
           </Link>
         </p>
