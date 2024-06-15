@@ -1,6 +1,6 @@
-# 📷 Photobox
+# 📷 Visage Studio
 
-Google Photos clone for building a dynamic image gallery with Cloudinary.
+A Cloud Based Platform for building a dynamic image gallery with Cloudinary.
 
 Features include:
 * Gallery view of all Photobox-uploaded images

@@ -379,7 +379,7 @@ const MediaViewer = ({ resource }: { resource: CloudinaryResource }) => {
       <Sheet modal={false} open={filterSheetIsOpen}>
         <SheetContent
           ref={sheetFiltersRef}
-          className="w-full sm:w-3/4 grid grid-rows-[1fr_auto] bg-zinc-800 text-white border-0"
+          className="w-1/2 md:w-3/4 grid grid-rows-[1fr_auto] bg-zinc-800 text-white border-0"
           data-exclude-close-on-click={true}
         >
           <Tabs defaultValue="account">
@@ -681,7 +681,7 @@ const MediaViewer = ({ resource }: { resource: CloudinaryResource }) => {
       <Sheet modal={false} open={infoSheetIsOpen}>
         <SheetContent
           ref={sheetInfoRef}
-          className="w-full sm:w-3/4 grid grid-rows-[auto_1fr_auto] bg-zinc-800 text-white border-0"
+          className="w-1/2 md:w-3/4 grid grid-rows-[auto_1fr_auto] bg-zinc-800 text-white border-0"
           data-exclude-close-on-click={true}
         >
           <SheetHeader className="my-4">
@@ -742,7 +742,7 @@ const MediaViewer = ({ resource }: { resource: CloudinaryResource }) => {
 
       {/** Asset management navbar */}
 
-      <Container className="fixed z-10 top-0 left-0 w-full h-16 flex items-center justify-between gap-4 bg-gradient-to-b from-black">
+      <Container className="fixed z-10 top-0 left-0 w-full h-16 flex items-center justify-center sm:gap-2 md:gap-4 bg-gradient-to-b from-black">
         <div className="flex items-center gap-4">
           <ul>
             <li>
